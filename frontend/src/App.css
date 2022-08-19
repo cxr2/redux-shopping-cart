@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+/* NavBar */
+
+.nav-bar {
+  height: 70px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-bar h2 {
+  font-size: 40px;
+}
+
+.nav-bag {
+  display: flex;
+  align-items: center;
+}
+
+.bag-quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  width: 25px;
+  background: #ce0e2d;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  margin-left: 5px;
+}
+
+/* Not Found */
+
+.not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(68, 68, 68);
+  min-height: 80vh;
+}
+
+.not-found h1 {
+  font-size: 50px;
+}
+
+.not-found h2 {
+  font-size: 35px;
+}
+
+/* Home */
+
+.home-container {
+  padding: 2rem 4rem;
+}
+
+.home-container h1 {
+  letter-spacing: 5px;
+  font-size: 60px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.product {
+  width: 250px;
+  max-width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 15px;
+}
+
+.product img {
+  width: 80%;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.product h3 {
+  font-size: 25px;
+  letter-spacing: 1.5px;
+}
+
+.product .details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.products button {
+  font-size: 15px;
+  background-color: black;
+  padding: 16px 0px;
+  color: white;
+  border-radius: 100px;
+  font-weight: 600;
+}
+
+span.price {
+  font-weight: 600;
+}
+
+.products button:hover {
+  background-color: #333333;
+  cursor: pointer;
+}
