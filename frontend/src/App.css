@@ -23,6 +23,10 @@
   color: black;
 }
 
+.navbar svg {
+  display: inline-block;
+}
+
 .nav-bar h2 {
   font-size: 40px;
 }
