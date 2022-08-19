@@ -12,7 +12,7 @@ const initialState = {
 // action creator
 export const productsFetch = createAsyncThunk(
   "products/productsFetch",
-  async ({ rejectWithValue }) => {
+  async (userData, { rejectWithValue }) => {
     try {
       const response = await axios.get("http://localhost:5000/products");
       //throw error if no data in response
