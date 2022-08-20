@@ -130,6 +130,7 @@ h2 .capital {
   color: white;
   border-radius: 100px;
   font-weight: 600;
+  border: none;
 }
 
 span.price {
@@ -139,6 +140,7 @@ span.price {
 .products button:hover {
   background-color: #333333;
   cursor: pointer;
+  border: none;
 }
 
 /* Cart */

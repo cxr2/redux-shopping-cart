@@ -1,6 +1,8 @@
+import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
+  const { cartTotalQuantity } = useSelector((state) => state.cart);
   return (
     <>
       <nav className="nav-bar">
@@ -38,7 +40,7 @@ const NavBar = () => {
 
             {/* display how many items in bag */}
             <span className="bag-quantity">
-              <span>3</span>
+              <span>{cartTotalQuantity}</span>
             </span>
           </div>
         </NavLink>
