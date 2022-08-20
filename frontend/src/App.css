@@ -170,3 +170,49 @@ span.price {
   grid-template-columns: 3fr 1fr 1fr 1fr;
   column-gap: 0.5rem;
 }
+
+.cart-item {
+  border-top: 1px solid rgb(187, 187, 187);
+  padding: 1rem 0;
+}
+
+.cart-container .titles .product-title {
+  padding-left: 0.5rem;
+}
+
+.cart-container .titles .total {
+  padding-right: 0.5rem;
+  justify-self: right;
+}
+
+/* can use flexbox inside grid, flex by default is inline */
+.cart-item .cart-product {
+  display: flex;
+}
+
+.cart-item .cart-product img {
+  width: 100px;
+  max-width: 100%;
+  margin-right: 1rem;
+}
+.cart-item .cart-product h3 {
+  font-weight: 400;
+}
+
+.cart-item .cart-product button {
+  border: none;
+  outline: none;
+  color: #00acf0;
+  margin-top: 0.7rem;
+  background: none;
+  font-size: 15px;
+}
+
+.cart-item .cart-product button:hover {
+  color: #004aaf;
+  cursor: pointer;
+}
+
+.cart-product-quantity {
+  display: flex;
+}
